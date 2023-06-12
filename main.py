@@ -9,9 +9,11 @@ class Client(commands.Bot):
         intent = discord.Intents.all()
         intent.members = True
         super().__init__(command_prefix=('B ','b '),
-    case_insensitive=True,
-    intents=intent,
-    help_command=commands.DefaultHelpCommand(no_category='Help'))
+            case_insensitive=True,
+            intents=intent,
+            help_command=commands.DefaultHelpCommand(no_category='Help'),
+            allowed_mentions=discord.AllowedMentions(everyone=False,roles=False)
+        )
     async def on_ready(self):
         print(f'{client.user} has connected to Discord')
     
