@@ -21,7 +21,7 @@ use `{ctx.prefix}help {ctx.invoked_with}` for more information on how to use the
 use `{ctx.prefix}help {ctx.invoked_with}` for more information on how to use the command""")
         elif isinstance(error,commands.BotMissingPermissions):
             if 'send_messages' not in error.missing_permissions:
-                await ctx.reply(f"🚫 I lack the permission(s) `{', '.join(error.missing_permissions)}` to execute the command: ")
+                await ctx.reply(f"🚫 I lack the permission(s) `{', '.join(error.missing_permissions)}` to execute the command")
         else:
             raise error
 
