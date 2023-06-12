@@ -1,0 +1,34 @@
+v0.0.0 (07/3/21) : Added Basic DadJokes.
+v0.1.0 (07/3/21) : Added Ping Command.
+v0.1.1 (07/3/21) : Added Variations of Dadjokes.
+v0.2.0 (07/3/21): Added 8Ball Command.
+v0.3.0 (07/3/21): Added Say Command.
+v0.3.1 (07/3/21): DadJokes will UNO Reverse When Misused.
+v0.3.2 (07/3/21): Added Custom Status.
+v0.4.0 (07/3/21): Added Herobrine.
+v1.0.0 (08/3/21): Added AFK Command.
+v1.0.1 (08/3/21): AFKs are now stored in the Internal Storage.
+v1.0.2 (08/3/21): Added AFKs command to check existing AFKs.
+v1.0.3 (08/3/21): Added @everyone, @here, and link filter.
+v1.0.4 (08/3/21): Added a 256 Character limit to AFK's reason.
+v1.1.0 (08/3/21): Added Error Handlers (Basically, now YOU get the error instead of me in the console).
+v1.1.1 (09/3/21): Some Commands now require specific Roles or Permissions, Thanks to v1.1.0.
+v1.1.2 (09/3/21): Added more Responses and made them less resource intensive.
+v1.2.0 (09/3/21): Added Patch Notes lol.
+v1.3.0 (09/3/21): Added Welcome Messages (now defunct).
+v1.4.0 (10/3/21): Added "Reply" command similar to "Say" command.
+v1.4.1 (06/4/21): AFK now changes User's NickName.
+v1.4.2 (09/4/21): People can now see how long you have been AFK for.
+v1.4.3 (10/4/21): Bot won't remove your AFK if Your Message starts with '='.
+v1.5.0 (05/5/21): Added "Guess" Command which is basically a number guessing game (first game ever).
+v1.6.0 (05/5/21): Added Userinfo Command.
+v1.7.0 (14/5/21): Added RockPaperScissors Command (Single/MultiPlayer Game).
+v1.8.0 (15/5/21): Added TicTacToe Command (MultiPlayer Game).
+v1.9.0 (15/5/21): Added UpTime Command.
+v1.9.1 (20/5/21): Made some Major changes and Bug fixes.
+v1.9.2 (24/6/21): AFK command will now use previous AFK's Time if the User was already AFK.
+v1.9.3 (24/6/21): Fixed a bug where AFK data will randomly dissapear.
+v2.0.0 (02/6/23): Migrated to a newer API and reworked the entire bot. Some commands now use Buttons.
+v2.0.1 (11/6/23): Changed the version scheming of Patchnotes and made some minor changes.
+v2.0.2 (11/6/23): Updated Error Handlers.
+v2.1.0 (12/6/23): Added Slash Commands.
