@@ -13,8 +13,8 @@ class Admin(commands.Cog):
         ----------
         module: str
             The name of the module."""
-        await self.client.load_extension(module)
-        await ctx.send(f"{module} Cog Loaded Sucessfully!")
+        await self.client.load_extension("cogs."+module)
+        await ctx.send(f"`{module}` Cog Loaded Sucessfully!")
 
     @commands.command(aliases=["remove"])
     @commands.is_owner()
@@ -25,8 +25,8 @@ class Admin(commands.Cog):
         ----------
         module: str
             The name of the module."""
-        await self.client.unload_extension(module)
-        await ctx.send(f"{module} Cog Unloaded Sucessfully!")
+        await self.client.unload_extension("cogs."+module)
+        await ctx.send(f"`{module}` Cog Unloaded Sucessfully!")
 
     @commands.command(aliases=["b"])
     @commands.is_owner()
@@ -37,8 +37,8 @@ class Admin(commands.Cog):
         ----------
         module: str
             The name of the module."""
-        await self.client.reload_extension(module)
-        await ctx.send(f"{module} Cog Reloaded Sucessfully!")
+        await self.client.reload_extension("cogs."+module)
+        await ctx.send(f"`{module}` Cog Reloaded Sucessfully!")
         
 
 async def setup(client):
